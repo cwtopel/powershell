@@ -30,25 +30,6 @@ ds "                                                  XP^X'``b   d'``X^XX"
 ds "                                                  X. 9  ``   '  P )X"
 ds "                                                  ``b  ``       '  d'"
 ds "                                                   ``             '"
-#ds "             :::   ::: :::::::: :::       :::::::: " -foreground white
-#ds "            :+:   :+::+:    :+::+:      :+:    :+: " -foreground white
-#ds "            +:+ +:+ +:+    +:++:+      +:+    +:+  " -foreground yellow
-#ds "            +#++:  +#+    +:++#+      +#+    +:+   " -foreground yellow
-#ds "            +#+   +#+    +#++#+      +#+    +#+    " -foreground yellow
-#ds "           #+#   #+#    #+##+#      #+#    #+#     " -foreground red
-#ds "          ###    ######## ##################       " -foreground red
-#ds "               :::::::: :::       :::    :::     :::::::: " -foreground white
-#ds "              :+:    :+::+:       :+:  :+: :+:  :+:    :+: " -foreground white
-#ds "             +:+       +:+       +:+ +:+   +:+ +:+         " -foreground yellow
-#ds "            +#++:++#+++#+  +:+  +#++#++:++#++::#:         "  -foreground yellow
-#ds "                   +#++#+ +#+#+ +#++#+     +#++#+   +#+#   " -foreground yellow
-#ds "           #+#    #+# #+#+# #+#+# #+#     #+##+#    #+#   "  -foreground red
-#ds "           ########   ###   ###  ###     ### ########   "    -foreground red
-#ds "           "
-#ds "           "
-#ds "           "
-#ds "           "
-
 
 function Get-Time { return $(get-date | foreach { $_.ToLongTimeString() } ) }
 function prompt
