@@ -1,12 +1,12 @@
 #############################################################################
 ##                                                                         ##
 ## Script Name: tictactoe.ps1 -- Play some of dat TIC TAC TOE.             ##
-## Version:		1.2.1                                                      ##
-## Author:		Jerry Lee Ford, Chris Topel                                ##
-## Date:			2009 - 4/15/2014                                       ##
+## Version:		1.2.1                                              ##
+## Author:		Jerry Lee Ford, Chris Topel                        ##
+## Date:			2009 - 4/15/2014                           ##
 ##                                                                         ##
 ## Descrpition: This PowerShell script challenges the player to beat the   ##
-##				computer in a game of Tic Tac Toe.                         ##
+##				computer in a game of Tic Tac Toe.         ##
 ##                                                                         ##
 #############################################################################
 
