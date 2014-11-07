@@ -4,8 +4,7 @@ $LockedAccount=$LockedAccount.substring(0,2).toupper()+$LockedAccount.substring(
 $AccountLockOutEventTime = $AccountLockOutEvent.TimeGenerated
 $AccountLockOutEventMessage = $AccountLockOutEvent.Message
 $Subject = "Account Locked Out: $LockedAccount" 
-$Body = "$LockedAccount was locked out on 
-$AccountLockOutEventTime.`n`nEvent Details:`n`n$AccountLockOutEventMessage"
+$Body = "$LockedAccount was locked out on $AccountLockOutEventTime.`n`nEvent Details:`n`n$AccountLockOutEventMessage"
 
 ###########################################################################
 # Please Configure the following variables....
